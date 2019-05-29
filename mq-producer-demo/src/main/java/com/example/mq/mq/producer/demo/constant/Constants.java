@@ -10,4 +10,6 @@ public class Constants {
 
     // 失败
     public static final String ORDER_SEND_FAILURE = "2";
+
+    public static final int ORDER_TIMEOUT = 1; /*分钟超时单位：min*/
 }

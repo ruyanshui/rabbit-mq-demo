@@ -12,7 +12,7 @@ public interface BrokerMessageLogMapper {
      * 查询消息状态为0(发送中)且已经超时的消息集合
      * @return
      */
-    List<BrokerMessageLogMapper> query4StatusAndTimeoutMessage();
+    List<BrokerMessageLog> query4StatusAndTimeoutMessage();
 
     /**
      * 重新发送统计count发送次数+1
